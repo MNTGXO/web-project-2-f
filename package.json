@@ -1,0 +1,8 @@
+{
+  "name": "project-root",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "YOUR_NODE_VERSION"  // Match client/package.json's node version
+  }
+}
