@@ -1,8 +1,11 @@
 {
-  "name": "project-root",
+  "name": "root",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
   "engines": {
-    "node": "YOUR_NODE_VERSION"  // Match client/package.json's node version
+    "node": "18.x"  // Match the Node.js version in your client/package.json
   }
 }
